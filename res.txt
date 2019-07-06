@@ -1,0 +1,66 @@
+Programs Folder\program0
+OK
+
+Programs Folder\program1
+OK
+
+Programs Folder\program2
+Compilation Exception
+	Caused by Begin Expected  on line 1
+
+STOP
+
+Programs Folder\program3
+Compilation Exception
+	Caused by end if / else Expected on line 12
+
+STOP
+
+Programs Folder\program4
+OK
+
+Programs Folder\program5
+Compilation Exception
+	Caused by loop Expected after end on line 8
+
+STOP
+
+Programs Folder\program6
+Compilation Exception
+	Caused by variable a has not been declared or is a bad type on line 6
+
+STOP
+
+Programs Folder\program7
+Compilation Exception
+	Caused by Unexpected symbol else on line 5
+
+STOP
+
+Programs Folder\program8
+Compilation Exception
+	Caused by End Of File Expected on line 13
+
+STOP
+
+Programs Folder\program9
+OK
+
+Programs Folder\program10
+OK
+
+Programs Folder\program11
+OK
+
+Programs Folder\program12
+Compilation Exception
+	Caused by variable x1 has not been declared or is a bad type on line 2
+
+STOP
+
+Programs Folder\program13
+Compilation Exception
+	Caused by 3 and x2 can't multiply or divide strings on line 3
+
+STOP
+
