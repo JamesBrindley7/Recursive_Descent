@@ -1,0 +1,29 @@
+<statement part> ::= begin <statement list> end
+
+<statement list> ::= <statement> | <statement list> ; <statement>
+
+<statement> ::= <assignment statement> | <if statement> | <while statement> | <procedure statement> | <until statement> | <for statement>
+
+<assignment statement> ::= identifier := <expression> | identifier := stringConstant
+
+<if statement> ::= if <condition> then <statement list> end if | if <condition> then <statement list> else <statement list> end if
+
+<while statement> ::= while <condition> loop <statement list> end loop
+
+<procedure statement> ::= call identifier ( <argument list> )
+
+<until statement> ::= do <statement list> until <condition>
+
+<for statement> ::= for ( <assignment statement> ; <condition> ; <assignmentstatement> ) do <statement list> end loop
+
+<argument list> ::= identifier | <argument list> , identifier
+
+<condition> ::= identifier <conditional operator> identifier | identifier <conditional operator> numberConstant | identifier <conditional operator> stringConstant
+
+<conditional operator> ::= > | >= | = | /= | < | <=
+
+<expression> ::= <term> | <expression> + <term> | <expression> - <term>
+
+<term> ::= <factor> | <term> * <factor> | <term> / <factor>
+
+<factor> ::= identifier | numberConstant | ( <expression> )
